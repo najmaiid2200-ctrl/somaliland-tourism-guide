@@ -34,11 +34,11 @@
 <script src="js/script.js"></script>
 </section>
 <script>
-  document.querySelector("form").addEventListener("submit", function(e) {
-    e.preventDefault();
+function showMessage(event){
+    event.preventDefault();
     alert("✅ Your message has been sent successfully!");
-    this.reset();
-});
+    document.querySelector("form").reset();
+}
 </script>
 </body>
 </html>
