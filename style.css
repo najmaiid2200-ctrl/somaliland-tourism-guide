@@ -34,7 +34,7 @@ nav a:hover{
 
 .hero{
     height:80vh;
-    background:url("../images/hero.jpg") center/cover no-repeat;
+    background:url("hero.jpg") center/cover no-repeat;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -69,7 +69,7 @@ nav a:hover{
 
 
 
-destinations{
+.destinations{
     padding:40px;
     text-align:center;
 }
@@ -106,7 +106,7 @@ destinations{
 }
 
 
-gallery{
+.gallery{
     padding:40px;
     text-align:center;
 }
@@ -130,24 +130,24 @@ gallery{
     transform:scale(1.05);
 }
 
-culture{
+.culture{
     padding:40px;
     text-align:center;
 }
 
-hotels{
+.hotels{
     padding:40px;
     text-align:center;
 }
 
-restaurents{
+.restaurents{
     padding: 40px;
     text-align: center;
 }
 
 
 
-contact{
+.contact{
 padding:40px;
 text-align:center;
 }
@@ -175,7 +175,7 @@ cursor:pointer;
 
 .hero{
     height:90vh;
-    background:url("../images/hero.jpg");
+    background:url("hero.jpg");
     background-size:cover;
     background-position:center;
     display:flex;
